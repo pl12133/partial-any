@@ -1,5 +1,5 @@
 {
-  "name": "partial",
+  "name": "partial-any",
   "version": "0.0.1",
   "description": "Partial application regardless of argument ordering",
   "main": "lib/index.js",
