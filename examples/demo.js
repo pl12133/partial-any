@@ -1,7 +1,7 @@
 'use strict';
 const partial = require('../lib/');
 
-let debug = partial(console.log.bind(console), 'DEBUGGING:');
+let debug = partial(console.log, 'DEBUGGING:');
 debug('Easy debugging messages');
 
 let delayedFiveSeconds = partial(setTimeout, undefined, 5000);
