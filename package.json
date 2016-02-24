@@ -1,6 +1,6 @@
 {
   "name": "partial-any",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Partial application regardless of argument ordering",
   "repository": {
     "type": "git",
@@ -8,7 +8,6 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src/index.js -o lib/index.js"
   },
   "keywords": [],
