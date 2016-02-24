@@ -1,0 +1,13 @@
+{
+  "name": "partial",
+  "version": "0.0.1",
+  "description": "Partial application regardless of argument ordering",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/index.js -o lib/index.js"
+  },
+  "keywords": [],
+  "author": "pl12133",
+  "license": "ISC"
+}
