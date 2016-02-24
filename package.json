@@ -2,6 +2,10 @@
   "name": "partial-any",
   "version": "0.0.1",
   "description": "Partial application regardless of argument ordering",
+  "repository": {
+    "type": "git",
+    "url": "pl12133/partial-any"
+  },
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
