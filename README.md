@@ -1,3 +1,4 @@
+[![npm version](https://badge.fury.io/js/partial-any.svg)](https://badge.fury.io/js/partial-any)
 # partial-any
 
 A flexible implementation of partial application
