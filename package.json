@@ -9,5 +9,9 @@
   },
   "keywords": [],
   "author": "pl12133",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-plugin-transform-es2015-parameters": "^6.5.0"
+  }
 }
