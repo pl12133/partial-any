@@ -7,6 +7,8 @@ A flexible implementation of partial application
 
 This module implements partialAny as described in the article [Ben Alman: Partial Application in JavaScript](http://benalman.com/news/2012/09/partial-application-in-javascript/#partial-application-from-anywhere). Partially apply with data you have available, leave arguments as `undefined` and they will become arguments to the returned function.
 
+Similar to [_.partial](http://underscorejs.org/#partial).
+
 ## Install
 
     npm install partial-any
