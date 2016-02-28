@@ -8,13 +8,16 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "build": "babel src/index.js -o lib/index.js"
+    "build": "babel src/index.js -o lib/index.js",
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha --compilers js:babel-core/register --recursive"
   },
   "keywords": [],
   "author": "pl12133",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.5.1",
-    "babel-plugin-transform-es2015-parameters": "^6.5.0"
+    "babel-plugin-transform-es2015-parameters": "^6.5.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
   }
 }
